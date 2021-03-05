@@ -23,7 +23,7 @@ Most of STM32 boards support support one of these.
   Delevopment Environment.
 
 ### Important Notice
-The source of the confusion is that even though MX does not support F7 boards and F7 libraries, the "Embedded Software Packages Manager" that comes with MX supports their installation and management.
+The source of the confusion is that even though MX does not support F7 boards and F7 libraries, the **Embedded Software Packages Manager** that comes with MX supports their installation and management.
 In particular, using the "Embedded Software Packages Manager" is important for putting the source code in the "where it should be". 
 
 
@@ -47,16 +47,71 @@ This product may be for STM32Cube.
 
 Provide USB **micro-B** cable
 
-Install STM32 CubeIDE
+If you connect to PC USB port with this, you can check the board works properly.
+
+- Install STM32 CubeIDE
 Integrated Development Environment for STM32
 https://www.st.com/ja/development-tools/stm32cubeide.html
 
-Install STM32 CubeMX
+- Install STM32 CubeMX
 STM32Cube initialization code generator
 https://www.st.com/ja/development-tools/stm32cubemx.html
 
+- Start STM32 CubeMX
 
+- Install **STM32Cube MCU Package for STM32L5 Series** from STM32Cube **Embedded Software Packages Manager**.
 
+- Click **ACCESS TO EXAMPLE SELECTOR** of Start My project from Example on STM32 CubeMX main manu.
+
+- Search with Keyword of "USB_Device" on left pain and you can find berow sample projects for Nucleo L552ZE-Q.
+
+    - CDC_Standalone
+    - DFU_Standalone
+    - HID_Standalone
+
+Now we will try HID_Standalone.
+
+- Select and double click HID_Standalone
+
+- Enable ICACHE to enable Instaruction cache
+
+- Select and double click HID_Standalone
+
+Generated
+C:\Users\Tom\STM32Cube\Example\HID_Standalone
+
+Select 
+Start new project from an existing STM32CibeMX configuration file (.ioc)
+from STM32CubeIDE Home menu 
+
+Choose
+C:\Users\Tom\STM32Cube\Example\HID_Standalone
+
+Run
+
+Not worked...
+
+Thren try DFU_Standalone
+without enable cache
+
+C:\Users\Tom\STM32Cube\Example\DFU_Standalone
+
+Run
+
+Not worked...
+
+Thren try CDC_Standalone
+without enable cache
+
+C:\Users\Tom\STM32Cube\Example\CDC_Standalone
+
+Run
+
+Not worked...
+
+Gave up to use STM32 CubeMX code generator.
+
+Try samples...
 
 
 
