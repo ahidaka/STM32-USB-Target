@@ -43,6 +43,12 @@ https://www.st.com/ja/evaluation-tools/nucleo-l552ze-q.html
 
 This product may be for STM32Cube.
 
+### Supported USB Device Function
+NUCLEO-L552ZE-Q
+    - CDC_Standalone CubeMX
+    - DFU_Standalone CubeMX
+    - HID_Standalone CubeMX
+
 ### How to start
 
 Provide USB **micro-B** cable
@@ -126,9 +132,17 @@ https://www.st.com/ja/evaluation-tools/32f746gdiscovery.html
 - Software tools (STM32CubeF7)
 https://www.st.com/content/st_com/ja/products/embedded-software/mcu-mpu-embedded-software/stm32-embedded-software/stm32cube-mcu-mpu-packages/stm32cubef7.html
 
-
 Getting started with STM32CubeF7
 dm00180213-getting-started-with-stm32cubef7-mcu-package-for-stm32f7-series-stmicroelectronics.pdf P17
+
+### Supported USB Device Function
+STM32F746G-DISCO
+- AUDIO_Standalone 
+- DFU_Standalone 
+- DualCore_Standalone 
+- HID_LPM_Standalone 
+- HID_Standalone 
+- MSC_Standalone 
 
 
 **IMPORTANT**
